@@ -1,0 +1,9 @@
+DELAY 1000
+REM Abre o Prompt de Comando e cria um arquivo de log (somente para teste)
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 500
+STRING echo Teste de segurança > %USERPROFILE%\Desktop\log.txt
+ENTER
